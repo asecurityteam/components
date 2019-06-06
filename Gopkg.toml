@@ -14,8 +14,7 @@
 
 [[constraint]]
   name = "github.com/Jeffail/benthos"
-  # version = "^2.2.0"
-  revision = "bdd5e353ea72a5805e80be84c3ebafa9acba2465"
+  version = "^2.4.0"
 
 [[constraint]]
   name = "github.com/stretchr/testify"

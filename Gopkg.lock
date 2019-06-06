@@ -35,7 +35,7 @@
   version = "v1.4.0"
 
 [[projects]]
-  digest = "1:f44b9eb4dc71e907f966092dda39c7b05b9d2c5a5a8eddb2490cb7c107a2c037"
+  digest = "1:ad0f981d8fba00ca6a5642468213eb31742f510e1ecc9cdb28dcd7c7593fde6b"
   name = "github.com/Jeffail/benthos"
   packages = [
     "lib/api",
@@ -78,7 +78,8 @@
     "lib/util/tls",
   ]
   pruneopts = "UT"
-  revision = "bdd5e353ea72a5805e80be84c3ebafa9acba2465"
+  revision = "7d8cf2585d7fc68a1a19b097f7503bea1dac1c71"
+  version = "v2.4.0"
 
 [[projects]]
   digest = "1:06f9276c40d85647a9227cbf935f81b763171ca4f60c623ec172d40bce0613fa"
@@ -188,7 +189,7 @@
   version = "v0.3.0"
 
 [[projects]]
-  digest = "1:d1e914c599064359b78422947da2b5b3fce423b1fb9934c9be3dc7a865057e62"
+  digest = "1:494d6387da44db71943f40767d119f1ccd5dcc75a83dfb00289c2195e33c261e"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -241,8 +242,8 @@
     "service/sts",
   ]
   pruneopts = "UT"
-  revision = "5312c8dac9067d339c4e68d7e0dd5507b2f01849"
-  version = "v1.19.41"
+  revision = "4be228a772ad27b69e25c148dc794a17bf7b735c"
+  version = "v1.19.45"
 
 [[projects]]
   digest = "1:a311d8231c5db1f07825d1bd7a7a1aca5180d499be10f88ef2d116dec4c7dca5"
@@ -356,7 +357,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f80b3ba2eeace38429bd2ea2b2ce73cad149ca8d424da686f049d6d5796c26c9"
+  digest = "1:b313598e8a5f9c16eb7202b62e485f59daefb7f89f8095d31ab3639d9929a34a"
   name = "github.com/getkin/kin-openapi"
   packages = [
     "jsoninfo",
@@ -365,7 +366,7 @@
     "pathpattern",
   ]
   pruneopts = "UT"
-  revision = "d3de0bf1986be6bfb870a59e18ac7754b62c8b5a"
+  revision = "b820876da6b5c3c361d8c2cddebf89e2135f82d7"
 
 [[projects]]
   digest = "1:2cd7915ab26ede7d95b8749e6b1f933f1c6d5398030684e6505940a10f31cfda"
@@ -548,23 +549,23 @@
   version = "v1.0.2"
 
 [[projects]]
-  digest = "1:e41460371fc769fce3bcb3fdcee8c8a6a45b3c070a2f6832faf2c14f9dbb74b6"
+  digest = "1:6de8b539649786932d077d1c035570d68526e9dd76519009c4a736c91762d033"
   name = "github.com/nats-io/go-nats"
   packages = ["."]
   pruneopts = "UT"
-  revision = "98d6600c35d554f3fed98c81f3ed2e4894931f61"
-  version = "v2.0.0"
+  revision = "e2837a2879e82886f6e21715e3a0217fdc46d370"
+  version = "v1.8.1"
 
 [[projects]]
-  digest = "1:67bb6bc65e93e3df7c812e70c246b6a3c6dfc2335217aeddc1ff24c3f953260e"
+  digest = "1:490cf70bca1104361b6a259607fa63d7ce954f9eb68b9d20bd5f07fb3ab8886c"
   name = "github.com/nats-io/go-nats-streaming"
   packages = ["."]
   pruneopts = "UT"
-  revision = "71833a70e319f5f843347eac41bb466771b2b294"
-  version = "v0.4.5"
+  revision = "c5efdc3e2330fb9c81f34082d0c04a8de817748a"
+  version = "v0.5.0"
 
 [[projects]]
-  digest = "1:7e6bcfef63db9e4ddb45d366708073403f848cef273ee40fe38b4ed23640aba5"
+  digest = "1:8de5a74ac9ff41ba07e18c5053ab631549b46bb3064ddba30027e774af1ff31f"
   name = "github.com/nats-io/nats.go"
   packages = [
     ".",
@@ -572,8 +573,8 @@
     "util",
   ]
   pruneopts = "UT"
-  revision = "98d6600c35d554f3fed98c81f3ed2e4894931f61"
-  version = "v2.0.0"
+  revision = "e2837a2879e82886f6e21715e3a0217fdc46d370"
+  version = "v1.8.1"
 
 [[projects]]
   digest = "1:0b5d91120efc54504bc253fda90b08c4be88cd78a4023ef60019e95bb0cdc136"
@@ -596,8 +597,8 @@
   name = "github.com/nats-io/stan.go"
   packages = ["pb"]
   pruneopts = "UT"
-  revision = "71833a70e319f5f843347eac41bb466771b2b294"
-  version = "v0.4.5"
+  revision = "c5efdc3e2330fb9c81f34082d0c04a8de817748a"
+  version = "v0.5.0"
 
 [[projects]]
   digest = "1:bb48459ec76efe45f13094480296462ef5c9aaa56662918819b7a8fce3155b8b"
@@ -701,15 +702,15 @@
   version = "v0.4.1"
 
 [[projects]]
-  digest = "1:f8fac244ec2cb7daef48b0148dcf5a330ac7697fa83c2e1e78e65b21f7f43500"
+  digest = "1:403b810b43500b5b0a9a24a47347e31dc2783ccae8cf97c891b46f5b0496fa1a"
   name = "github.com/prometheus/procfs"
   packages = [
     ".",
     "internal/fs",
   ]
   pruneopts = "UT"
-  revision = "65bdadfa96aecebf4dcf888da995a29eab4fc964"
-  version = "v0.0.1"
+  revision = "833678b5bb319f2d20a475cb165c6cc59c2cc77c"
+  version = "v0.0.2"
 
 [[projects]]
   branch = "master"
@@ -881,7 +882,7 @@
     "ed25519/internal/edwards25519",
   ]
   pruneopts = "UT"
-  revision = "20be4c3c3ed52bfccdb2d59a412ee1a936d175a7"
+  revision = "f99c8df09eb5bff426315721bfa5f16a99cad32c"
 
 [[projects]]
   branch = "master"
@@ -903,11 +904,11 @@
     "websocket",
   ]
   pruneopts = "UT"
-  revision = "f3200d17e092c607f615320ecaad13d87ad9a2b3"
+  revision = "1492cefac77f61bc789c00f41ead8f8d7307cd21"
 
 [[projects]]
   branch = "master"
-  digest = "1:7cba983d19f4aa6a154d73268dcc67a66bcc24bd7ee1c1b09d448a721dea0d9f"
+  digest = "1:31e33f76456ccf54819ab4a646cf01271d1a99d7712ab84bf1a9e7b61cd2031b"
   name = "golang.org/x/oauth2"
   packages = [
     ".",
@@ -917,7 +918,7 @@
     "jwt",
   ]
   pruneopts = "UT"
-  revision = "aaccbc9213b0974828f81aaac109d194880e3014"
+  revision = "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33"
 
 [[projects]]
   branch = "master"
@@ -932,14 +933,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:a02364950e8c7394b03f886e57a3f7acfc4fba32ce03c186dd9f36b501d0484b"
+  digest = "1:98d02d01de1a49eec5a1f5ec479e522ab4e98ffc6a5488f27bd55b56e570338c"
   name = "golang.org/x/sys"
   packages = [
     "unix",
     "windows",
   ]
   pruneopts = "UT"
-  revision = "4c3a928424d249a1013e789cf5e458d480bcba16"
+  revision = "7fc4e5ec1444df20dd195ae7c3bbfcd7114d3faa"
 
 [[projects]]
   digest = "1:8d8faad6b12a3a4c819a3f9618cb6ee1fa1cfc33253abeeea8b55336721e3405"
@@ -967,7 +968,7 @@
   version = "v0.3.2"
 
 [[projects]]
-  digest = "1:dd6e1a70c3d069cb58cb5cd234a6aca65c31b87eecce857b0b140aec96fcee91"
+  digest = "1:e87bd124cbd14ce90f723549fb2a57370b8f25a03cd2b66d2f11e1c743137dc0"
   name = "google.golang.org/api"
   packages = [
     "googleapi/transport",
@@ -981,8 +982,8 @@
     "transport/http/internal/propagation",
   ]
   pruneopts = "UT"
-  revision = "721295fe20d585ce7e948146f82188429d14da33"
-  version = "v0.5.0"
+  revision = "aac82e61c0c8fe133c297b4b59316b9f481e1f0a"
+  version = "v0.6.0"
 
 [[projects]]
   digest = "1:32d1ec4837a1c93e01e1748c575cc27a9dd34c6ce0e07f569dd9fd6281dd04df"
@@ -1019,20 +1020,30 @@
     "protobuf/field_mask",
   ]
   pruneopts = "UT"
-  revision = "fb225487d10142b5bcc35abfc6cb9a0609614976"
+  revision = "eb0b1bdb6ae60fcfc41b8d907b50dfb346112301"
 
 [[projects]]
-  digest = "1:75fd7c63d317f4c60131dea3833934eb790ba067f90636fbcd51dbbd2ad57170"
+  digest = "1:9db2e6e9d0d0a6580f01a242d30e895efd65b57ed923f50ea37667a6c09665bd"
   name = "google.golang.org/grpc"
   packages = [
     ".",
     "balancer",
     "balancer/base",
+    "balancer/grpclb",
+    "balancer/grpclb/grpc_lb_v1",
     "balancer/roundrobin",
     "binarylog/grpc_binarylog_v1",
     "codes",
     "connectivity",
     "credentials",
+    "credentials/alts",
+    "credentials/alts/internal",
+    "credentials/alts/internal/authinfo",
+    "credentials/alts/internal/conn",
+    "credentials/alts/internal/handshaker",
+    "credentials/alts/internal/handshaker/service",
+    "credentials/alts/internal/proto/grpc_gcp",
+    "credentials/google",
     "credentials/internal",
     "credentials/oauth",
     "encoding",
@@ -1060,8 +1071,8 @@
     "tap",
   ]
   pruneopts = "UT"
-  revision = "869adfc8d5a43efc0d05780ad109106f457f51e4"
-  version = "v1.21.0"
+  revision = "501c41df7f472c740d0674ff27122f3f48c80ce7"
+  version = "v1.21.1"
 
 [[projects]]
   digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
