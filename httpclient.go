@@ -6,6 +6,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/asecurityteam/transport"
+
 	"github.com/asecurityteam/settings"
 	transportd "github.com/asecurityteam/transportd/pkg"
 	componentsd "github.com/asecurityteam/transportd/pkg/components"
@@ -19,19 +21,27 @@ const (
 )
 
 // HTTPDefaultConfig contains all settings for the default Go HTTP client.
-type HTTPDefaultConfig struct{}
+type HTTPDefaultConfig struct {
+	ContentType string
+}
 
 // HTTPDefaultComponent is a component for creating the default Go HTTP client.
 type HTTPDefaultComponent struct{}
 
 // Settings returns the default configuration.
 func (*HTTPDefaultComponent) Settings() *HTTPDefaultConfig {
-	return &HTTPDefaultConfig{}
+	return &HTTPDefaultConfig{
+		ContentType: "application/json",
+	}
 }
 
 // New constructs a client from the given configuration
 func (*HTTPDefaultComponent) New(ctx context.Context, conf *HTTPDefaultConfig) (http.RoundTripper, error) {
-	return http.DefaultTransport, nil
+	return transport.NewHeader(
+		func(*http.Request) (string, string) {
+			return "Content-Type", conf.ContentType
+		},
+	)(http.DefaultTransport), nil
 }
 
 // HTTPSmartConfig contains all settings for the transportd HTTP client.

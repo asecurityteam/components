@@ -72,7 +72,6 @@ func TestHTTP(t *testing.T) {
 	tr, err := NewHTTP(context.Background(), src)
 	require.Nil(t, err)
 	require.NotNil(t, tr)
-	require.Equal(t, tr, http.DefaultTransport)
 
 	src = settings.NewMapSource(map[string]interface{}{
 		"httpclient": map[string]interface{}{
